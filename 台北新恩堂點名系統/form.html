@@ -7,17 +7,20 @@
         <meta chartset="UTF-8">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="style.css">        
+    
     </head>
 
     <body>
         <div class="container-fluid">
         <h1>台北新恩堂點名系統</h1>
         <div class="nav nav-tabs nav-justified"></div>
+        <legend>主日點名表</legend>
         <form>
             <fieldset>
-                <legend>主日點名表</legend>
-                <label>0牧長同工</label>
-                <br>
+                <div class="type01">0牧長同工</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name001">潘劉玉霞
                 <input type="checkbox" name="name[]" value="name002">潘榮隆
                 <input type="checkbox" name="name[]" value="name003">王淑姬
@@ -32,12 +35,13 @@
                 <br>
                 <input type="checkbox" name="name[]" value="name011">丁友庭
                 <input type="checkbox" name="name[]" value="name012">吳蒙恩
+                </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend></legend>
-                <label>01萬伯小組</label>
-                <br>
+                <div>01萬伯小組</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name013">黃萬伯
                 <input type="checkbox" name="name[]" value="name014">王宸華
                 <input type="checkbox" name="name[]" value="name015">侯汎旻
@@ -49,12 +53,13 @@
                 <input type="checkbox" name="name[]" value="name020">李京蔚
                 <input type="checkbox" name="name[]" value="name021">陳泓至
                 <input type="checkbox" name="name[]" value="name022">馮家瑞
+                </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend></legend>
-                <label>2Steven小組</label>
-                <br>
+                <div>2Steven小組</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name023">Steven 
                 <input type="checkbox" name="name[]" value="name024">林世傳
                 <input type="checkbox" name="name[]" value="name025">邱俊涼
@@ -64,13 +69,13 @@
                 <input type="checkbox" name="name[]" value="name028">林恭世
                 <input type="checkbox" name="name[]" value="name029">張坤金
                 <input type="checkbox" name="name[]" value="name030">陳良根
-                <br>
+                </div+>
             </fieldset>
             <br>
             <fieldset>
                 <legend></legend>
-                <label>3銘顯小組</label>
-                <br>
+                <div>3銘顯小組</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name031">許銘顯
                 <input type="checkbox" name="name[]" value="name032">徐庭益
                 <input type="checkbox" name="name[]" value="name033">鄧濬成
@@ -82,13 +87,14 @@
                 <input type="checkbox" name="name[]" value="name038">魏銘成
                 <input type="checkbox" name="name[]" value="name039">陳明宗
                 <input type="checkbox" name="name[]" value="name040">徐昌輝
-                <br>
-            </fieldset>
+                </div>
 
+            </fieldset>
+            <br>
             <fieldset>
                 <legend></legend>
-                <label>4牧迪小組</label>
-                <br>
+                <div>4牧迪小組</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name041">廖偉均
                 <input type="checkbox" name="name[]" value="name042">彭敬之
                 <input type="checkbox" name="name[]" value="name043">高漢強
@@ -118,12 +124,13 @@
                 <input type="checkbox" name="name[]" value="name063">黃哲
                 <input type="checkbox" name="name[]" value="name064">余汶瑾
                 <br>
+                </div>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
-                <label>5小圓小組</label>
-                <br>
+                <div>5小圓小組</div>
+                <div class="content">
                 <input type="checkbox" name="name[]" value="name065">林靜茹
                 <input type="checkbox" name="name[]" value="name066">郭麗燕
                 <input type="checkbox" name="name[]" value="name067">張淑芹
@@ -133,9 +140,9 @@
                 <input type="checkbox" name="name[]" value="name070">汪文婷
                 <input type="checkbox" name="name[]" value="name071">陳姵妤
                 <input type="checkbox" name="name[]" value="name072">彭昀茜
-                <br>
+                </div>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>6Ally小組</label>
@@ -151,7 +158,7 @@
                 <input type="checkbox" name="name[]" value="name080">莊依璇
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>7Tina小組</label>
@@ -165,7 +172,7 @@
                 <input type="checkbox" name="name[]" value="name086">盧彩珠
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>8克琳小組</label>
@@ -177,7 +184,7 @@
                 <input type="checkbox" name="name[]" value="name091">羅淑萍
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>9芃芃小組</label>
@@ -194,7 +201,7 @@
                 <input type="checkbox" name="name[]" value="name100">林玉婷
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>10美麗小組</label>
@@ -216,7 +223,7 @@
                 <input type="checkbox" name="name[]" value="name113">黃淑媖
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>11菁菁小組</label>
@@ -232,7 +239,7 @@
                 <input type="checkbox" name="name[]" value="name121">陳奕雯
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>12錞錞小組</label>
@@ -247,7 +254,7 @@
                 <input type="checkbox" name="name[]" value="name128">華淑芬
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>13錫玲小組</label>
@@ -261,7 +268,7 @@
                 <input type="checkbox" name="name[]" value="name134">林立華
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>14耀鳳小組</label>
@@ -271,7 +278,7 @@
                 <input type="checkbox" name="name[]" value="name137">陳怡燕
                 <br>
             </fieldset>
-
+            <br>
             <fieldset>
                 <legend></legend>
                 <label>15學青小組</label>
