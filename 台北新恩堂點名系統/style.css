@@ -10,15 +10,20 @@ body{
 
 h1{
 
-    color: rgb(76, 26, 192);
+    color: rgba(169, 6, 234, 0.596);
     font-size: 50px;
     text-align: center;
-    text-decoration-line:underline ;
     font-style: normal;
-    font-weight:lighter;
-
+    font-weight:bold;
 
 }
+
+legend{
+
+    font-size: 40px
+
+}
+
 
 fieldset{
     background-color: rgb(227, 253, 215);
@@ -28,11 +33,28 @@ fieldset{
 }
 
 div.content{
-    padding:10px;border:1px dashed #888888
+    padding:10px;border:1px dashed #3bc205e3;
+
 }
 
 .content input{
-    color:blue;
-    height: 30px;
-    width: 30px;
+    color:black;
+    height: 40px;
+    width: 40px;
 }
+
+.button{
+    width:100px;
+    text-align: center;
+    color:#fff;
+    font-size:3em;
+  }
+
+.hover:hover{
+    background-color:yellowgreen;
+}
+    
+.hover{
+    font-weight:bold;
+}
+
